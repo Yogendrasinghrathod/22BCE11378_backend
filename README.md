@@ -25,33 +25,12 @@ File access via generated URLs
 
 Basic file operations (upload, download, delete, list)
 
-Project Structure
-file-sharing-system/
-│
-├── cmd/
-│   └── server/
-│       └── main.go         # Application entry point
-│
-├── internal/
-│   ├── auth/               # Authentication handlers and middleware
-│   ├── config/             # Configuration management
-│   ├── file/               # File handlers and services
-│   ├── models/             # Database models
-│   ├── storage/            # Storage interfaces (S3/local)
-│   └── utils/              # Utility functions
-│
-├── migrations/             # Database migration files
-├── pkg/                    # Reusable packages
-│   ├── database/           # Database connection
-│   └── jwt/                # JWT utilities
-│
-├── .env.example            # Environment variables templateAuthentication
-POST /register - Register a new user
+
 
 POST /login - Login and get JWT token
-├── go.mod                  # Go module file
-├── Makefile                # Build commands
-└── README.md               # This file
+POST/register - register the user
+
+POST/upload- upload the file 
 
 
 
@@ -64,6 +43,10 @@ POST /login - Login and get JWT token
 ![image](https://github.com/user-attachments/assets/6a10d682-ffe1-430e-b1f0-881085fab0e2)
 
 
+![image](https://github.com/user-attachments/assets/b22019c7-2e43-440c-897f-06094e157c58)
+
+
+There was some issue last minute in the upload code when used redix to get the file faster  so , i just uploaded till that time .
 ![Uploading image.png…]()
 
 
