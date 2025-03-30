@@ -1,3 +1,5 @@
+
+
 This project implements a secure file-sharing platform backend built in Go that allows users to upload, manage, and share files. The system features user authentication with JWT, file storage (S3/local), metadata management in PostgreSQL, and performance optimizations through concurrency and caching.
 
 Features
@@ -64,3 +66,5 @@ POST /login - Login and get JWT token
 
 ![Uploading image.png…]()
 
+
+Thanks For the Opportunity 
